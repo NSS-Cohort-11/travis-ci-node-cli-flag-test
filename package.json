@@ -1,0 +1,23 @@
+{
+  "name": "travis-ci-node-cli-flag-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sscotth/travis-ci-node-cli-flag-test.git"
+  },
+  "keywords": [],
+  "author": "Scott Humphries <npm@sscotth.io> (https://sscotth.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sscotth/travis-ci-node-cli-flag-test/issues"
+  },
+  "homepage": "https://github.com/sscotth/travis-ci-node-cli-flag-test#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
