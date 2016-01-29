@@ -5,7 +5,7 @@ var execSync = require('child_process').execSync;
 
 describe('app', function () {
   it('should output to the command line', function () {
-    var stdout = execSync('node app.js').toString();
+    var stdout = execSync('node --harmony_rest_parameters app.js').toString();
 
     assert.equal(stdout, 'Hello World\n');
   });
