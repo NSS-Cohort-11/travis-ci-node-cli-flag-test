@@ -2,8 +2,8 @@
 
 'use strict';
 
-function hello (name) {
-  return 'Hello ' + name;
+function hello (...names) {
+  return 'Hello ' + names.join(' & ');
 }
 
 console.log(hello('World'));
