@@ -1,9 +1,6 @@
-#!/usr/bin/env node --harmony_rest_parameters
+#!/usr/bin/env node
 
 'use strict';
 
-function hello (...names) {
-  return 'Hello ' + names.join(' & ');
-}
-
-console.log(hello('World'));
+require('babel-core/register');
+require('./hello');
